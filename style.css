@@ -1,0 +1,29 @@
+body{
+    background-color: bisque;
+}
+
+#countlable{
+   display: block;
+   text-align: center;
+   font-size: 10em;
+   font-family: Arial, Helvetica, sans-serif; 
+   color: #152340;
+}
+
+#btncontainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    background-color:#152340;
+    border-radius:5px ;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color:#ac2b3b;
+}
